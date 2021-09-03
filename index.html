@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="box">
+        <fieldset>
+            <legend>Formulário de clientes</legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome">Nome completo</label>
+            </div>
+            <div class="inputBox">
+                <input type="email" name="email" id="email" class="inputUser" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="inputBox">
+                <input type="tel" name="tel" id="tel" class="inputUser" required>
+                <label for="tel">Telefone</label>
+            </div>
+
+            <p>Sexo:</p>
+            <input type="radio" name="genero" id="feminino" value="Feminino" required>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="masculino" value="Masculino" required>
+            <label for="masculino">Masculino</label>
+
+            <div class="inputBox">
+                <input type="date" name="date" id="date" class="inputUser" required>
+                <label for="date">Ano de nascimento</label>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
